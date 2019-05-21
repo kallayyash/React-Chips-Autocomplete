@@ -1,0 +1,66 @@
+.parentContainer {
+	border-bottom: 2px solid #16bcc9;
+	width: 500px;
+	margin: 30px auto;
+}
+
+.chipsList, .autoComplete {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.chipsList {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.chipBox {
+	padding: 5px 15px;
+    border-radius: 15px;
+	background-color: #ddd;
+	margin-right: 10px;
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	span {
+		color: black;
+		text-align: left;
+	}
+}
+
+
+.deleteIcon {
+		margin-left: 20px;
+		cursor: pointer;
+	}
+
+
+.autoComplete {
+	position: relative;
+}
+
+.autoCompleteInput {
+  border: none;
+  /*&:focus {
+  	outline: 1px solid transparent;
+  	box-shadow: none;
+  }	*/
+}
+
+.suggestionsList {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	position: absolute;
+	top: 100%;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.suggestion {
+	padding: 3px 10px;
+	color: black;
+	text-align: left;
+	cursor: pointer;
+}
